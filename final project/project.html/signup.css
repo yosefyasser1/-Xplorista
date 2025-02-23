@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('travel-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    background-image: url(../yyy.jpg);
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.9s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+
+.signup-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.signup-container h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.signup-container p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.signup-form .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.signup-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.signup-form .input-group input:focus {
+    border-color: #4749f5;
+    outline: none;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4749f5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #4749f5;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.login-link a {
+    color: #4749f5;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+} 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D4A373;
+    background-image: url(../yyy.jpg);
+    background-size: cover;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.9s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 25px; 
+    border-radius: 100px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.input-box {
+    width: 100%;
+    margin: 20px 0; 
+    text-align: left;
+}
+
+.input-box label {
+    display: block; 
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333; 
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px; 
+    outline: none;
+    transition: border-color 0.3s ease; 
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #999; 
+}
+
+input:focus {
+    border-color: #4749f5; 
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #4749f5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; 
+}
+
+.login-btn:hover {
+    background-color: #4749f5; 
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    font-size: 14px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #4749f5;
+    transition: color 0.3s ease; 
+}
+
+.links a:hover {
+    color: #4749f5; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
